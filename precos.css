@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #201736;
+}
+
+body {
+    background-color: #f0e8fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-zap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}   
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+#alinhar-logo {
+    padding-left: 50px;
+}
+
+#navegacao {
+    background-color: #d85e82;
+    width: 550px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.Links {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.Links:hover {
+    color: #69001d;
+}
+
+nav>span>a:hover, .selecionado a{
+    background-color: #e50040;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #d85e82;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover {
+    background-color: pink;
+    color: #fff;
+}

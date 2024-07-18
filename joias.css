@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #201736;
+}
+
+body {
+    background-color: #f0e8fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-zap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}   
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+#alinhar-logo {
+    padding-left: 50px;
+}
+
+#navegacao {
+    background-color: #d85e82;
+    width: 550px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.Links {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.Links:hover {
+    color: #69001d;
+}
+
+nav>span>a:hover, .selecionado a{
+    background-color: #e50040;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* conteudo principal */
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.coluna {
+    padding: 10px;
+}
+
+.img {
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.img img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 15px;
+}
+
+.img:hover img {
+    scale: 2;
+    transition: all 2s;
+}
+
+.titulo-compra {
+    padding-left: 5px;
+}
+
+.preco-compra {
+    padding-left: 5px;
+    color: #d85e82;
+    font-weight: 800;
+}
+
+.link-comprar {
+    text-align: center;
+}
+
+.div2-compra {
+    border: 1px solid gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #d85e82;
+    border-radius: 15px;
+}
+
+.link:hover {
+    background-color: pink;
+    transition: 2s;
+}
+
+#atendimento-rodape {
+    padding-left: 650px;
+    position: absolute;
+}
+
+#rodape-final {
+    background-color: #201736;
+    text-align: center;
+    color: white;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #d85e82;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+@media (max-width: 450px) {
+    #alinhar-logo {
+        text-align: center;
+    }
+
+    header {
+        background-color: #201736;
+        width: 780px;
+    }
+
+    #navegacao {
+        background-color: #d85e82;
+        width: 650px;
+        text-align: center;
+        padding: 15px;
+        margin-left: 40px;
+        font-size: 23px;
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .coluna {
+        width: 460px;
+        padding: 10px;
+        padding-left: 150px;
+    }
+
+    .img img {
+        width: 450px;
+        height: 500px;
+        display: block;
+        border-radius: 15px;
+    }
+
+    #atendimento-rodape {
+        padding-left: 300px;
+    }
+
+    .link-zap {
+        position: fixed;
+        width: 90px;
+        height: 90px;
+        bottom: 40px;
+        right: 70px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }   
+    
+    .fa-whatsapp {
+        margin-top: 30px;
+    }
+    
+    hr {
+        width: 780px;
+    }
+
+    #atendimento-rodape {
+        padding-left: 300px;
+    }
+
+    #rodape-final {
+        width: 780px;
+    }
+}

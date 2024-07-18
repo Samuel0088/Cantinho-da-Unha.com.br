@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    align-items: center;
+    background-color: #201736;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    justify-content: center;
+}
+
+form {
+    background-color: #d85e82;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+input, textarea, button {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    color: #777;
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #d85e82;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover {
+    background-color: pink;
+    color: #fff;
+}

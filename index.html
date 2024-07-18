@@ -1,0 +1,444 @@
+<!-- 
+    Este projeto é desenvolvido em conjunto com a disciplina de Programação Web I da Etec Polivalente de Americana 
+    e tem como a finalidade de estudar e aprofundar os conhecimentos  em HTML, CSS e JS.
+
+    Autores: Samuel Vieira
+    Turma:
+    Data: 
+ -->
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+     <head>
+             <!-- Required meta tags -->
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+             <!-- Sobre o WebSite -->
+
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+             <link rel="stylesheet" href="style.css">
+             <title>Cantinho da Unha</title>
+             <link rel="icon" href="">
+             <meta name="author" content="">
+             <meta name="description" content="">
+             <meta name="keywords" content="">
+         </head>
+  
+     <body>
+     
+         <!-- Cabeçalho -->
+ 
+         <header>
+           
+            <div id="alinhar-logo">
+                <img src="imagens/logo.png" alt="">
+            </div>
+          
+             <!-- Navegação do site -->
+            <nav>
+                <div id="navegacao">
+                    <a class="Links" href="index.html">Home</a>
+                    |
+                    <a class="Links" href="adesivos-artesanais.html">Adesivos Artesanais</a>
+                    |
+                    <a class="Links" href="joias.html">Jóias de Unha</a>
+                    |
+                    <a class="Links" href="precos.html">Preços</a>
+                </div>
+
+                <a class="link-zap" href="https://web.whatsapp.com/send?phone=5519999109945" target="_blank">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+
+            </nav>
+            <br><br>
+         </header>
+
+         <!-- Conteúdo Principal -->
+ 
+         <main>
+
+            <div onclick="scrollToTop()" class="scrollTop">Topo</div>
+
+            <div class="slider">
+
+                <div class="slides">
+
+                    <!--radio buttons-->
+                    <input type="radio" name="radio-btn" id="radio1"> 
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--fim radio buttons-->
+
+                    <!--slides imagens-->
+                    <div class="slide first">
+                        <img src="imagens/Adesivos Artesanais.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/joia.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/pe e mao.png" alt="">
+                    </div>
+                    <!--fim slides imagens-->
+
+                    <!--auto navegação-->
+                    <div class="auto-navegacao">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navegacao">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                
+            </div>
+
+            <br><br>
+
+            <div id="vantagens">
+                <img id="img-vantagens" src="imagens/Entrega para todo o Brasil.png" alt="">
+            </div>
+
+            <br><br>
+
+            <p id="destaque">Destaques</p>
+ 
+            <br><br>
+    
+            <div id="container">
+                <div class="coluna">
+                    <div class="img">
+                        <a href="compra.html">
+                            <img src="imagens/adesivo6.jpg" alt="" width="250" height="300">
+                        </a>
+                    </div>
+                    <div class="div2-compra">
+                        <br>
+                        <div class="titulo-compra">Adesivo Artesanal (nome)
+                        <br><br>
+                            <p class="preco-compra">R$ 5,00</p>
+                        </div>
+                        <br>
+                        
+                        <div class="link-comprar">
+                            <a class="link" href="compra.html">Comprar</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+           
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo7.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo8.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo9.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo10.jpg" alt="" width="250" height="300">
+                            </a>
+                       </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+            <div id="container">
+                <div class="coluna">
+                    <div class="img">
+                        <a href="compra.html">
+                            <img src="imagens/adesivo11.jpg" alt="" width="250" height="300">
+                        </a>
+                    </div>
+                    <div class="div2-compra">
+                        <br>
+                        <div class="titulo-compra">Adesivo Artesanal (nome)
+                        <br><br>
+                            <p class="preco-compra">R$ 5,00</p>
+                        </div>
+                        <br>
+                        
+                        <div class="link-comprar">
+                            <a class="link" href="compra.html">Comprar</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+           
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo12.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/adesivo13.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/joia1.jpg" alt="" width="250" height="300">
+                            </a>
+                        </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="container">
+                    <div class="coluna">
+                        <div class="img">
+                            <a href="compra.html">
+                                <img src="imagens/joia2.jpg" alt="" width="250" height="300">
+                            </a>
+                       </div>
+                        <div class="div2-compra">
+                            <br>
+                            <div class="titulo-compra">Adesivo Artesanal (nome)
+                            <br><br>
+                                <p class="preco-compra">R$ 5,00</p>
+                            </div>
+                            <br>
+                            
+                            <div class="link-comprar">
+                                <a class="link" href="compra.html">Comprar</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+            <br><br><br>
+
+            <div id="corfundo-instagram">
+                <br><br>
+
+                <p id="texto-instagram">Fique por dentro das novidades!</p>
+                <br>
+                <div id="instagram">
+        
+                    <div>
+                        <a id="link-instagram" href="https://www.instagram.com/dianafreitas_adesivosartesanal/" target="_blank">
+                            <div id="borda-instagram">
+                                
+                                <div id="logo-instagram">
+                                    <img id="logo-instagram" src="imagens/instagram-logo.png" alt="" width="30" height="30">
+                                </div>
+                                
+                                <p id="nome-instagram">dianafreitas_adesivosartesanal</p>
+                                <br>
+                                
+                            </div>
+                            
+                        </a>
+                    </div>
+                    <br><br><br>
+                    
+                </div>
+
+                <div id="alinhar-link">
+                    <div id="link-seguir">
+                        <a id="botao-seguir" href="https://www.instagram.com/dianafreitas_adesivosartesanal/" target="_blank">SIGA-NOS</a>
+                    </div>
+                </div>
+
+                <br><br>
+            </div>
+
+            <br><br><br><br><br>
+
+            <div>
+                <a id="link-duvidas" href="https://api.whatsapp.com/send/?phone=5519999109945&text&type=phone_number&app_absent=0" target="_blank">
+                    <img src="imagens/whatsapp logo.png" alt="" width="50" height="50">
+
+                    <p class="titulo-duvidas">Dúvidas?</p>
+                    <br>
+                    <p class="texto-duvidas">Fale com nossa equipe</p>
+                </a>
+
+                
+                <img id="ajustar-verificado" src="imagens/verificado logo.png" alt="" width="50" height="50">
+                <br><br><br>
+                <p class="titulo-verificado">Cantinho da Unha desde 2018!</p>
+                <br>
+                <p class="texto-verificado">Variedade e preço baixo!</p>
+                
+
+            </div>
+
+            <br><br><br>
+
+            <hr>
+
+         </main>
+ 
+         <br><br><br>
+         <!-- Rodape -->
+         <footer>
+
+            <div>
+                
+                <div id="atendimento-rodape">
+                    <p class="titulo-rodape">Atendimento</p>
+                    <br>
+                    
+                    <p class="texto-rodape">+55 (19) 99910-9945</p>
+                    
+                    <br>
+                    <a class="link-texto-rodape" href="">
+                        <p class="texto-rodape"></p>
+                    </a>
+                </div>
+
+            </div>
+
+            <br><br><br><br><br><br>
+
+            <div id="rodape-final">
+                <br><br>
+                Copyright Cantinho da Unha - 2024. Todos os direitos reservados.
+                <br><br>
+                Produzido por Samuel Vieira
+                <br><br>
+            </div>
+
+         </footer>
+ 
+         <script src="seta.js"></script>
+     </body>
+ </html>
